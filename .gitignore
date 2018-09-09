@@ -7,3 +7,8 @@ web/profiles/contrib
 
 # Ignore Drupal's file directory
 web/sites/default/files
+
+# Ignore paths that contain user-generated content.
+/sites/*/files/*
+/sites/*/private/*
+!/sites/*/files/config_*
